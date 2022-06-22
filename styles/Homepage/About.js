@@ -24,6 +24,7 @@ export const About__Column = styled.div`
 export const About__Row = styled.div`
   width: 100%;
   color: white;
+  line-height: 1.5;
 
   .About__Header__Text {
     padding: 20px 0;
