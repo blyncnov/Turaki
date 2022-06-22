@@ -36,12 +36,13 @@ export const HeroSection__Sector = styled.div`
 
   h1 {
     color: #fff;
+    font-size: 40px;
   }
 
   h2 {
     color: #fff;
     line-height: 1.5;
-    font-size: 1.5em;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1em;
 
@@ -64,6 +65,22 @@ export const HeroSection__Sector = styled.div`
     img {
       width: 100%;
       margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      color: #fff;
+      font-size: 23px;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 30px;
+    }
+
+    span {
+      font-size: 16px;
     }
   }
 `;
