@@ -29,7 +29,7 @@ const HeroSection = () => {
             <div className="Hero__Sector">
               <div className="HeroSection__Image">
                 <Image
-                  src="/images/turaki.png"
+                  src="/images/turaki1.png"
                   alt="Turaki"
                   width="1000"
                   height="1000"

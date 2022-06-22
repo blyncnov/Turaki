@@ -22,8 +22,7 @@ export const Turaki__Button = styled.button`
   border-radius: 5px;
   cursor: pointer;
 
-  transition: all 0.5s ease-in-out, color 0.15s ease-in-out,
-    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+  transition: border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
 
   &:hover {
