@@ -17,14 +17,6 @@ const News = () => {
     <>
       <About__Container>
         <About__Sector>
-          <div className="HeroSection__Image Maphor">
-            <Image
-              src="/images/mask.png"
-              objectFit="cover"
-              layout="fill"
-              alt="Turaki"
-            />
-          </div>
           <h1>News and Events</h1>
         </About__Sector>
       </About__Container>

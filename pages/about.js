@@ -57,35 +57,49 @@ const AboutTuraki = () => {
                 <div className="About__Content__Text">
                   <div className="About__Left">
                     <p>
-                      lorem ipsum dolor sit amet lorem, consectetur adipiscing
-                      elit lorem ipsum dolor sit amet lorem, consectetur
-                      adipiscing elit lorem ipsum dolor sit amet lorem,
-                      consectetur adipiscing elit
+                      Born on September 25, 1972, into the reputable family of
+                      Issa and Maryam Mustapha of Gambari Ward in Ilorin East
+                      Local Government Area, Kwara State .
                     </p>
                     <br />
                     <p>
-                      lorem ipsum dolor sit amet lorem, consectetur adipiscing
-                      elit lorem ipsum dolor sit amet lorem, consectetur
-                      adipiscing elit lorem ipsum dolor sit amet lorem,
-                      consectetur adipiscing elit
+                      On the surface , Saliu Mustapha is a reputable politician
+                      with over two decades of experience in party
+                      administration and developmental politics . But beyond
+                      that facade is a philantropist and an accomplished
+                      international businesman with interest in real estate and
+                      contructions
                     </p>
                   </div>
                   <div className="About__Right">
                     <p>
-                      lorem ipsum dolor sit amet lorem, consectetur adipiscing
-                      elit lorem ipsum dolor sit amet lorem, consectetur
-                      adipiscing elit lorem ipsum dolor sit amet lorem,
-                      consectetur adipiscing elit
+                      Saliu Mustapha developed keen interest in goverance and
+                      that formed the basic of his evolution into politics.
                     </p>
                     <br />
                     <p>
-                      lorem ipsum dolor sit amet lorem, consectetur adipiscing
-                      elit lorem ipsum dolor sit amet lorem, consectetur
-                      adipiscing elit lorem ipsum dolor sit amet lorem,
-                      consectetur adipiscing elit
+                      The young Saliu attended St. barthelomew Primary School
+                      Wusasa , Zaria . he proceeded to Command Secondary School,
+                      Kaduna for his post-primary education. for his Higher
+                      education, Saliu studied Mineral Resources Engineering at
+                      Kaduna polytechnic , Kaduna and graduated in flying
+                      colors.
                     </p>
                   </div>
                 </div>
+                <br />
+                <hr style={{ border: "1.3px solid white" }} />
+                <br />
+                <p>
+                  Saliu Mustapha developed keen interest in goverance and that
+                  formed the basic of his evolution into politics.
+                </p>
+                <br />
+                <p>
+                  lorem ipsum dolor sit amet lorem, consectetur adipiscing elit
+                  lorem ipsum dolor sit amet lorem, consectetur adipiscing elit
+                  lorem ipsum dolor sit amet lorem, consectetur adipiscing elit
+                </p>
               </About__Row>
             </About__Column>
           </Turaki__Max__width>
