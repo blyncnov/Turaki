@@ -8,7 +8,7 @@ export const Turaki__Max__width = styled.div`
 
 export const Turaki__Button = styled.button`
   background-color: #8bd15f;
-  color: black;
+  color: #333333;
   border: 2px solid transparent;
   box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.04),
     0px 2px 4px rgba(96, 97, 112, 0.16);
@@ -18,7 +18,7 @@ export const Turaki__Button = styled.button`
   text-align: center;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 10px 20px;
+  padding: 13px 20px;
   border-radius: 5px;
   cursor: pointer;
 

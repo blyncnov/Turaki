@@ -7,10 +7,14 @@ export const Navigation__Container = styled.div`
 
 export const Navigation__Column = styled.div`
   width: 100%;
-  padding: 1em 0;
+  padding: 1.5em 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 900px) {
+    padding: 1.2em 0;
+  }
 `;
 
 export const Navigation__Sector = styled.div`

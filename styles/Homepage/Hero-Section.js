@@ -2,16 +2,19 @@ import styled from "styled-components";
 
 export const HeroSection__Container = styled.div`
   width: 100%;
-  padding: 70px 0 100px 0;
-  background-color: rgb(11, 59, 62);
+  // height: 100vh;
+  padding: 70px 0 30px 0;
   background: url(/images/turakibg.png),
     linear-gradient(
       to top,
-      rgba(0, 0, 0, 0.8) 0,
-      rgba(0, 0, 0, 0) 30%,
-      rgba(0, 0, 0, 0) 75%,
-      rgba(0, 0, 0, 0.8) 100%
+      rgb(0, 57, 60, 0.8) 0,
+      rgb(0, 57, 60, 0.8) 30%,
+      rgb(0, 57, 60, 0.8) 75%,
+      rgb(0, 57, 60, 0.8) 100%
     );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
 `;
 
 export const HeroSection__Column = styled.div`
@@ -52,6 +55,16 @@ export const HeroSection__Sector = styled.div`
     margin: 2em 0;
     display: flex;
     gap: 1em;
+  }
+
+  .HeroSection__Image {
+    width: 100%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      margin: 0 auto;
+    }
   }
 `;
 

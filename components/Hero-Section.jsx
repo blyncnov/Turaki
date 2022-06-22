@@ -26,16 +26,11 @@ const HeroSection = () => {
                 <Turaki__Button>Reach Out</Turaki__Button>
               </div>
             </HeroSection__Sector>
-            <div className="Hero__Sector">
+            <HeroSection__Sector>
               <div className="HeroSection__Image">
-                <Image
-                  src="/images/turaki1.png"
-                  alt="Turaki"
-                  width="1000"
-                  height="1000"
-                />
+                <img src="/images/turaki1.png" alt="Turaki" />
               </div>
-            </div>
+            </HeroSection__Sector>
           </HeroSection__Column>
         </Turaki__Max__width>
       </HeroSection__Container>
