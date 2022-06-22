@@ -4,13 +4,17 @@ export const About__Container = styled.div`
   width: 100%;
   background-color: #0b635e;
   padding: 20px 0;
+  color: white;
+  text-align: center;
 `;
 
 export const About__Column = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 1em;
   justify-content: flex-start;
+  align-items: center;
 
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
@@ -39,7 +43,7 @@ export const About__Row = styled.div`
 `;
 
 export const About__Turaki__Container = styled.div`
-  background: url(/images/mask.png),
+  background: url(/images/group.png),
     linear-gradient(
       to top,
       rgb(0, 57, 60, 0.8) 0,
@@ -58,15 +62,20 @@ export const About__Sector = styled.div`
   width: 100%;
 
   .HeroSection__Image {
-    width: 100%;
+    width: 100% !important;
+    height: 500px;
+    position: relative !important;
   }
 
-  .HeroSection__Image img {
+  .showcase {
     width: 100%;
+    height: 150px;
+    position: relative !important;
   }
 
-  .alhajipic img {
-    margin: -100px 0;
+  .Maphor {
+    position: relative !important;
+    height: 150px !important;
   }
 
   .About__btn {

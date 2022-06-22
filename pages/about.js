@@ -1,5 +1,7 @@
 import React from "react";
 
+import Image from "next/image";
+
 import {
   About__Container,
   About__Column,
@@ -16,8 +18,13 @@ const AboutTuraki = () => {
       <About__Container>
         <>
           <About__Sector>
-            <div className="HeroSection__Image">
-              <img src="/images/hands.png" alt="Turaki" />
+            <div className="HeroSection__Image showcase">
+              <Image
+                src="/images/hands.png"
+                layout="fill"
+                objectFit="cover"
+                alt="Turaki"
+              />
             </div>
             <div className="About__btn">
               <Turaki__Button>Join Community</Turaki__Button>
@@ -33,7 +40,13 @@ const AboutTuraki = () => {
             <About__Column>
               <About__Row>
                 <div className="HeroSection__Image alhajipic">
-                  <img src="/images/alhaji.png" alt="Turaki" />
+                  <Image
+                    src="/images/alhaji.png"
+                    layout="fill"
+                    alt="Turaki"
+                    objectFit="cover"
+                    objectPosition="top"
+                  />
                 </div>
               </About__Row>
               <About__Row>

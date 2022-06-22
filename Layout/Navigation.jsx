@@ -42,7 +42,7 @@ const Navigation = () => {
               <Navigation__Item click={isClicked}>
                 {Navigation__Data.map((item) => {
                   return (
-                    <li key={item.id}>
+                    <li onClick={isBarClickHandler} key={item.id}>
                       <h3>{item.icon}</h3>
                       <Link href={item.link}>
                         <a>{item.name}</a>
