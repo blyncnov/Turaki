@@ -122,9 +122,20 @@ export const About__As__Philantrophy = styled.div`
 export const About__As__Acheivement = styled.div`
   width: 100%;
   background-color: black;
-  padding: 1em 0;
+  padding: 2.5em 0;
   color: white;
   line-height: 1.5;
+  position: relative !important;
+
+  .Achievement__Content {
+    position: relative !important;
+  }
+
+  .Achievement__Content__Image {
+    height: 200px !important;
+    width: 100% !important;
+   
+  }
 `;
 
 export default About__Container;
