@@ -23,7 +23,7 @@ export const Turaki__Button = styled.button`
   cursor: pointer;
   margin: 1em 0;
 
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
     box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.03),
@@ -31,10 +31,6 @@ export const Turaki__Button = styled.button`
     color: white;
     background-color: transparent;
     border: 2px solid white;
-  }
-
-  @media (max-width: 768px) {
-    width: 100%;
   }
 `;
 

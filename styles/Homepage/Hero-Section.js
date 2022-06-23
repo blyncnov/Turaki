@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const HeroSection__Container = styled.div`
   width: 100%;
-  // height: 100vh;
   padding: 70px 0 30px 0;
   background: url(/images/turakibg.png),
     linear-gradient(

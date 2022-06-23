@@ -7,6 +7,7 @@ import { RiBarChartHorizontalLine } from "react-icons/ri";
 import { Navigation__Data } from "../data/Navigation.js";
 
 import {
+  Navigation__OverAll,
   Navigation__Container,
   Navigation__Column,
   Navigation__Sector,
@@ -25,7 +26,7 @@ const Navigation = () => {
   };
 
   return (
-    <>
+    <Navigation__OverAll>
       <Navigation__Container>
         <Turaki__Max__width>
           <Navigation__Column>
@@ -64,7 +65,7 @@ const Navigation = () => {
           </Navigation__Column>
         </Turaki__Max__width>
       </Navigation__Container>
-    </>
+    </Navigation__OverAll>
   );
 };
 

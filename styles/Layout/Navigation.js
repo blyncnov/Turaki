@@ -1,8 +1,20 @@
 import styled from "styled-components";
 
+export const Navigation__OverAll = styled.div`
+  width: 100%;
+  position: relative;
+  height: 68px;
+`;
+
 export const Navigation__Container = styled.div`
   width: 100%;
-  background-color: rgb(36, 96, 100);
+  background-color: rgb(0, 62, 65, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(5px);
+  z-index: 9999999999;
 `;
 
 export const Navigation__Column = styled.div`
@@ -11,6 +23,7 @@ export const Navigation__Column = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  // background-color: red;
 
   @media (max-width: 900px) {
     padding: 1.2em 0;
@@ -25,7 +38,7 @@ export const Navigation__Logo = styled.div`
   width: auto;
 
   h1 {
-    color: #fff;
+    color: white;
   }
 `;
 
@@ -38,7 +51,7 @@ export const Navigation__Item = styled.ul`
     display: flex;
     gap: 0.4em;
     align-items: center;
-    color: #fff;
+    color: white;
 
     a {
       color: inherit;
