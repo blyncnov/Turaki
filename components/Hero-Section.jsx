@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
+import Link from "next/link";
+
 import {
   HeroSection__Container,
   HeroSection__Column,
@@ -23,7 +25,11 @@ const HeroSection = () => {
                 MALLAM SALIU MUSTAPHA <span>(Turaki of Ilorin Emirate)</span>
               </h2>
               <div className="Hero__button">
-                <Turaki__Button>Learn more</Turaki__Button>
+                <Link href="/about">
+                  <a>
+                    <Turaki__Button>Learn more</Turaki__Button>
+                  </a>
+                </Link>
               </div>
             </HeroSection__Sector>
             <HeroSection__Sector>

@@ -52,7 +52,7 @@ export const HeroSection__Sector = styled.div`
   }
 
   .Hero__button {
-    margin: 2em 0;
+    margin: 1em 0;
     display: flex;
     gap: 1em;
   }

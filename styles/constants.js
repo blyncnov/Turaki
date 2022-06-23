@@ -21,7 +21,7 @@ export const Turaki__Button = styled.button`
   padding: 13px 20px;
   border-radius: 5px;
   cursor: pointer;
-  // margin: 1em 0;
+  margin: 1em 0;
 
   transition: all 0.2s ease-in-out;
 
