@@ -119,4 +119,12 @@ export const About__As__Philantrophy = styled.div`
   line-height: 1.5;
 `;
 
+export const About__As__Acheivement = styled.div`
+  width: 100%;
+  background-color: black;
+  padding: 1em 0;
+  color: white;
+  line-height: 1.5;
+`;
+
 export default About__Container;

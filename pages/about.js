@@ -17,6 +17,7 @@ import { Turaki__Max__width, Turaki__Button } from "../styles/constants";
 
 import Navigation from "../Layout/Navigation";
 import Philantrophy from "../components/Philantrophy";
+import Achievement from "../components/Achievement";
 
 const AboutTuraki = () => {
   return (
@@ -142,7 +143,7 @@ const AboutTuraki = () => {
           <br />
           <div style={{ textAlign: "center" }}>
             <h1>
-              <GoQuote style={{ fontSize: "2em"}} />
+              <GoQuote style={{ fontSize: "2em" }} />
             </h1>
             <p>
               He was a major member of the Buhari Presidential Campaigns in 2003
@@ -173,6 +174,7 @@ const AboutTuraki = () => {
         </About__Container__More__2>
       </div>
       <Philantrophy />
+      <Achievement />
       <br />
       <br />
     </>

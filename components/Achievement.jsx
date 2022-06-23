@@ -1,16 +1,16 @@
 import React from "react";
 
-import { About__As__Philantrophy } from "../styles/Homepage/About";
+import { About__As__Acheivement } from "../styles/Homepage/About";
 import { Turaki__Max__width } from "../styles/constants";
 
-const Philantrophy = () => {
+const Achievement = () => {
   return (
     <div>
-      <Turaki__Max__width>
-        <About__As__Philantrophy>
-          <h3>Philantrophy & People</h3>
+      <About__As__Acheivement>
+        <Turaki__Max__width>
+          <h3>Achievement & Lifestyles</h3>
           <hr />
-          <br/>
+          <br />
           <p>
             The CPC would later merge with other legacy parties to forming the
             All Progressives Congress (APC). Saliu, dogged, dutiful and
@@ -25,10 +25,10 @@ const Philantrophy = () => {
             engaged in a wide range of charitable projects in his hometown and
             beyond, advancing humanitarian causes.
           </p>
-        </About__As__Philantrophy>
-      </Turaki__Max__width>
+        </Turaki__Max__width>
+      </About__As__Acheivement>
     </div>
   );
 };
 
-export default Philantrophy;
+export default Achievement;
