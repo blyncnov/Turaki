@@ -1,6 +1,7 @@
 import React from "react";
-
 import Image from "next/image";
+
+import { GoQuote } from "react-icons/go";
 
 import {
   About__Container,
@@ -8,10 +9,14 @@ import {
   About__Row,
   About__Sector,
   About__Turaki__Container,
+  About__Container__More,
+  About__Container__More__2,
 } from "../styles/Homepage/About";
 
 import { Turaki__Max__width, Turaki__Button } from "../styles/constants";
+
 import Navigation from "../Layout/Navigation";
+import Philantrophy from "../components/Philantrophy";
 
 const AboutTuraki = () => {
   return (
@@ -92,21 +97,84 @@ const AboutTuraki = () => {
                 <br />
                 <hr style={{ border: "1.3px solid white" }} />
                 <br />
-                <p>
-                  Saliu Mustapha developed keen interest in goverance and that
-                  formed the basic of his evolution into politics.
-                </p>
+                <div className="About__Left">
+                  <p>
+                    Saliu Mustapha developed keen interest in goverance and that
+                    formed the basic of his evolution into politics.
+                  </p>
+                  <br />
+                  <p>
+                    As an undergraduate, Saliu Mustapha developed keen interest
+                    in governance and that formed the basis of his evolution
+                    into politics. His belief in purposeful and progressive
+                    leadership vis-a-vis dedication to public service, brought
+                    him on the same ideological paths with the likes of Chief
+                    Alexis Aniello, Chief Olu Falae, Alhaji Balarabe Musa, and
+                    President Muhammadu Buhari.
+                  </p>
+                  <p>
+                    Specifically, between 2001 – 2002, Saliu was the National
+                    Publicity Secretary of the Progressive Liberation Party
+                    (PLP) under the leadership of Dr. Ezekiel Ezeogwu. A little
+                    further in 2003, Saliu and other likeminds came together to
+                    register and form the Progressive Action Congress (PAC),
+                    whereat he was returned again as a National Publicity
+                    Secretary, an impressive feat for his age and clout as at
+                    that time.
+                  </p>
+                </div>
+
                 <br />
-                <p>
-                  lorem ipsum dolor sit amet lorem, consectetur adipiscing elit
-                  lorem ipsum dolor sit amet lorem, consectetur adipiscing elit
-                  lorem ipsum dolor sit amet lorem, consectetur adipiscing elit
-                </p>
               </About__Row>
             </About__Column>
           </Turaki__Max__width>
         </About__Sector>
       </About__Turaki__Container>
+      <div>
+        <Turaki__Max__width>
+          <About__Container__More>
+            <p>
+              He became a pivotal member of The Buhari Organisation (TBO) and
+              the Buhari Campaign Organisation (BCO) respectively for several
+              years.
+            </p>
+          </About__Container__More>
+          <br />
+          <div style={{ textAlign: "center" }}>
+            <h1>
+              <GoQuote style={{ fontSize: "2em"}} />
+            </h1>
+            <p>
+              He was a major member of the Buhari Presidential Campaigns in 2003
+              when the latter ran under the platform of All Nigeria Peoples
+              Party (ANPP).
+            </p>
+          </div>
+        </Turaki__Max__width>
+        <About__Container__More__2>
+          <Turaki__Max__width>
+            <p>
+              At about the time President Muhammadu Buhari conceived the idea of
+              coming back into public service as a civilian President, Saliu
+              Mustapha keyed into the vision. Thus, he became a pivotal member
+              of The Buhari Organisation (TBO) and the Buhari Campaign
+              Organisation (BCO) respectively for several years.
+              <br />
+              <br />
+              He was a major member of the Buhari Presidential Campaigns in 2003
+              when the latter ran under the platform of All Nigeria Peoples
+              Party (ANPP). In 2007, instead of sitting in far away Abuja, he
+              decided to go into the political trenches to hold forth for the
+              ANPP in his home state, Kwara State, where he contested as a
+              member of the Federal House of Representatives for Ilorin East and
+              South Federal Constituency.
+            </p>
+          </Turaki__Max__width>
+        </About__Container__More__2>
+      </div>
+      <Philantrophy />
+      <br />
+      <br />
     </>
   );
 };

@@ -93,4 +93,30 @@ export const About__Sector = styled.div`
   }
 `;
 
+export const About__Container__More = styled.div`
+  width: 100%;
+  background-color: #27938c;
+  padding: 1.5em 0;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  line-height: 1.5;
+`;
+
+export const About__Container__More__2 = styled.div`
+  width: 100%;
+  background-color: #67af39;
+  padding: 1.5em 0;
+  color: white;
+  margin: 2em 0;
+  line-height: 1.5;
+`;
+
+export const About__As__Philantrophy = styled.div`
+  width: 100%;
+  padding: 1em 0;
+  color: black;
+  line-height: 1.5;
+`;
+
 export default About__Container;
