@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Navigation__OverAll = styled.div`
   width: 100%;
   position: relative;
-  height: 68px;
+  height: 66px;
 `;
 
 export const Navigation__Container = styled.div`

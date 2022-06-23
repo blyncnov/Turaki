@@ -14,6 +14,7 @@ const HeroSection = () => {
     <>
       <HeroSection__Container>
         <Turaki__Max__width>
+          <br />
           <HeroSection__Column>
             <HeroSection__Sector>
               <h1>I&apos;m </h1>
@@ -22,7 +23,6 @@ const HeroSection = () => {
               </h2>
               <div className="Hero__button">
                 <Turaki__Button>Learn more</Turaki__Button>
-                {/* <Turaki__Button>Reach Out</Turaki__Button> */}
               </div>
             </HeroSection__Sector>
             <HeroSection__Sector>
