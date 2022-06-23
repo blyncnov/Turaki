@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
+import { GoQuote } from "react-icons/go";
+
 import {
   About__Column,
   About__As__Acheivement,
@@ -50,6 +52,19 @@ const Achievement = () => {
           </About__Column>
         </Turaki__Max__width>
       </About__As__Acheivement>
+      <Turaki__Max__width>
+        <br />
+        <div style={{ textAlign: "center" }}>
+          <h1>
+            <GoQuote style={{ fontSize: "2em" }} />
+          </h1>
+          <p>
+            Saliu Mustapha is widely respected as a mentor and a pillar of
+            support to thousands of youths in Kwara state and beyond, being a
+            young person himself .
+          </p>
+        </div>
+      </Turaki__Max__width>
     </div>
   );
 };

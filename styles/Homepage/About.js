@@ -134,7 +134,46 @@ export const About__As__Acheivement = styled.div`
   .Achievement__Content__Image {
     height: 200px !important;
     width: 100% !important;
-   
+  }
+`;
+
+export const About__As__More = styled.div`
+  background: url(/images/group.png),
+    linear-gradient(
+      to top,
+      rgb(0, 57, 60, 0.8) 0,
+      rgb(0, 57, 60, 0.8) 30%,
+      rgb(0, 57, 60, 0.8) 75%,
+      rgb(0, 57, 60, 0.8) 100%
+    );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  margin: 20px 0;
+  padding: 20px 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  line-height: 1.5;
+`;
+
+export const About__CoreValue = styled.div`
+  width: 100%;
+  background-color: transparent;
+  line-height: 1.5;
+
+  .Core__Description {
+    width: 100%;
+    margin: 1em 0;
+
+    h3 {
+      color: #03938c;
+    }
+
+    h5 {
+      font-weight: 400;
+      font-size: 12px;
+    }
   }
 `;
 

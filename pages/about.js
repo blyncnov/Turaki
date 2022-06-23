@@ -18,6 +18,8 @@ import { Turaki__Max__width, Turaki__Button } from "../styles/constants";
 import Navigation from "../Layout/Navigation";
 import Philantrophy from "../components/Philantrophy";
 import Achievement from "../components/Achievement";
+import More from "../components/More";
+import CoreValue from "../components/CoreValue";
 
 const AboutTuraki = () => {
   return (
@@ -175,6 +177,8 @@ const AboutTuraki = () => {
       </div>
       <Philantrophy />
       <Achievement />
+      <More />
+      <CoreValue />
       <br />
       <br />
     </>
