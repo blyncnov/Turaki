@@ -8,11 +8,13 @@ import {
 } from "../styles/Homepage/Hero-Section";
 
 import { Turaki__Max__width, Turaki__Button } from "../styles/constants";
+import Navigation from "../Layout/Navigation";
 
 const HeroSection = () => {
   return (
     <>
       <HeroSection__Container>
+        <Navigation />
         <Turaki__Max__width>
           <br />
           <HeroSection__Column>

@@ -11,11 +11,13 @@ import {
 } from "../styles/Homepage/About";
 
 import { Turaki__Max__width, Turaki__Button } from "../styles/constants";
+import Navigation from "../Layout/Navigation";
 
 const AboutTuraki = () => {
   return (
     <>
       <About__Container>
+        <Navigation />
         <>
           <About__Sector>
             <div className="HeroSection__Image showcase">

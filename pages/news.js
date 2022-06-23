@@ -5,11 +5,13 @@ import Image from "next/image";
 import { About__Container, About__Sector } from "../styles/Homepage/About";
 
 import { Turaki__Max__width } from "../styles/constants";
+import Navigation from "../Layout/Navigation";
 
 const News = () => {
   return (
     <>
       <About__Container>
+        <Navigation />
         <Turaki__Max__width>
           <About__Sector>
             <h1>News and Events</h1>
