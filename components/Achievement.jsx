@@ -15,7 +15,7 @@ const Achievement = () => {
       <About__As__Acheivement>
         <Turaki__Max__width>
           <div className="Achievement__Header">
-            <h3>Achievement & Lifestyles</h3>
+            <h2>Achievement & Lifestyles</h2>
             <hr />
             <br />
             <br />

@@ -10,17 +10,17 @@ const CoreValue = () => {
     <>
       <div>
         <Turaki__Max__width>
-          <div>
-            <h3>Core Value</h3>
-            <hr />
-            <br />
-            <h4>
-              The following are the minimium, irreducile standard to which i am
-              personally committed.
-            </h4>
-          </div>
-          <br />
           <About__CoreValue>
+            <div className="Core__Header">
+              <h2>Core Value</h2>
+              <hr style={{ border: "2px solid #03938c" }} />
+              <br />
+              <h4>
+                The following are the minimium, irreducile standard to which i
+                am personally committed.
+              </h4>
+            </div>
+            <br />
             <div className="Core__Description">
               <h3>Loyalty</h3>
               <h5>

@@ -175,6 +175,15 @@ export const About__CoreValue = styled.div`
       font-size: 12px;
     }
   }
+
+  .Core__Header {
+    color: #03938c !important;
+
+    h4 {
+      color: #333333;
+      font-weight: 400;
+    }
+  }
 `;
 
 export default About__Container;

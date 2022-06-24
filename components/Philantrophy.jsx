@@ -8,7 +8,7 @@ const Philantrophy = () => {
     <div>
       <Turaki__Max__width>
         <About__As__Philantrophy>
-          <h3>Philantrophy & People</h3>
+          <h2>Philantrophy & People</h2>
           <hr />
           <br/>
           <p>
