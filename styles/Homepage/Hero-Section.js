@@ -44,7 +44,6 @@ export const HeroSection__Sector = styled.div`
     line-height: 1.5;
     font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 1em;
 
     span {
       color: #8bd15f;
@@ -76,7 +75,7 @@ export const HeroSection__Sector = styled.div`
 
     h2 {
       color: #fff;
-      font-size: 30px;
+      font-size: 24px;
     }
 
     span {
