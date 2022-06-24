@@ -25,7 +25,8 @@ export const News__Section__Box = styled.div`
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1em;
+  gap: 1.5em;
+  align-items: center;
 
   .News__Images {
     width: 100%;
@@ -33,6 +34,11 @@ export const News__Section__Box = styled.div`
     background-color: #ccc;
     position: relative !important;
     border-radius: 1px;
+
+    .News__Images__img {
+      width: 100%;
+      height: 200px;
+    }
   }
 
   .News__Text__Content {
@@ -54,6 +60,10 @@ export const News__Section__Box = styled.div`
     h4 {
       color: #8bd15f;
     }
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
   }
 `;
 

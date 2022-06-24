@@ -36,7 +36,17 @@ const News = () => {
         <Turaki__Max__width>
           <News__Section__Container>
             <News__Section__Box>
-              <div className="News__Images"></div>
+              <div className="News__Images">
+                <div className="News__Images__img">
+                  <Image
+                    src="/images/life.png"
+                    layout="fill"
+                    alt="Turaki"
+                    objectFit="cover"
+                    objectPosition="top"
+                  />
+                </div>
+              </div>
               <div className="News__Text__Content">
                 <h2>Lorem ipsum dolor sit</h2>
 
@@ -51,7 +61,17 @@ const News = () => {
               </div>
             </News__Section__Box>
             <News__Section__Box>
-              <div className="News__Images"></div>
+              <div className="News__Images">
+                <div className="News__Images__img">
+                  <Image
+                    src="/images/life.png"
+                    layout="fill"
+                    alt="Turaki"
+                    objectFit="cover"
+                    objectPosition="top"
+                  />
+                </div>
+              </div>
               <div className="News__Text__Content">
                 <h2>Lorem ipsum dolor sit</h2>
 
@@ -66,7 +86,17 @@ const News = () => {
               </div>
             </News__Section__Box>
             <News__Section__Box>
-              <div className="News__Images"></div>
+              <div className="News__Images">
+                <div className="News__Images__img">
+                  <Image
+                    src="/images/life.png"
+                    layout="fill"
+                    alt="Turaki"
+                    objectFit="cover"
+                    objectPosition="top"
+                  />
+                </div>
+              </div>
               <div className="News__Text__Content">
                 <h2>Lorem ipsum dolor sit</h2>
 
@@ -81,7 +111,17 @@ const News = () => {
               </div>
             </News__Section__Box>
             <News__Section__Box>
-              <div className="News__Images"></div>
+              <div className="News__Images">
+                <div className="News__Images__img">
+                  <Image
+                    src="/images/life.png"
+                    layout="fill"
+                    alt="Turaki"
+                    objectFit="cover"
+                    objectPosition="top"
+                  />
+                </div>
+              </div>
               <div className="News__Text__Content">
                 <h2>Lorem ipsum dolor sit</h2>
 
@@ -96,7 +136,17 @@ const News = () => {
               </div>
             </News__Section__Box>
             <News__Section__Box>
-              <div className="News__Images"></div>
+              <div className="News__Images">
+                <div className="News__Images__img">
+                  <Image
+                    src="/images/life.png"
+                    layout="fill"
+                    alt="Turaki"
+                    objectFit="cover"
+                    objectPosition="top"
+                  />
+                </div>
+              </div>
               <div className="News__Text__Content">
                 <h2>Lorem ipsum dolor sit</h2>
 
@@ -111,7 +161,17 @@ const News = () => {
               </div>
             </News__Section__Box>
             <News__Section__Box>
-              <div className="News__Images"></div>
+              <div className="News__Images">
+                <div className="News__Images__img">
+                  <Image
+                    src="/images/life.png"
+                    layout="fill"
+                    alt="Turaki"
+                    objectFit="cover"
+                    objectPosition="top"
+                  />
+                </div>
+              </div>
               <div className="News__Text__Content">
                 <h2>Lorem ipsum dolor sit</h2>
 
@@ -126,7 +186,17 @@ const News = () => {
               </div>
             </News__Section__Box>
             <News__Section__Box>
-              <div className="News__Images"></div>
+              <div className="News__Images">
+                <div className="News__Images__img">
+                  <Image
+                    src="/images/life.png"
+                    layout="fill"
+                    alt="Turaki"
+                    objectFit="cover"
+                    objectPosition="top"
+                  />
+                </div>
+              </div>
               <div className="News__Text__Content">
                 <h2>Lorem ipsum dolor sit</h2>
 
