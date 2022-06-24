@@ -50,6 +50,10 @@ export const News__Section__Box = styled.div`
       font-weight: 400;
       font-size: 13px;
     }
+
+    h4 {
+      color: #8bd15f;
+    }
   }
 `;
 

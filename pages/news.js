@@ -7,10 +7,13 @@ import {
   News__Section__Container,
   News__Section__Box,
 } from "../styles/Homepage/News";
+
 import { About__Container, About__Sector } from "../styles/Homepage/About";
 
 import { Turaki__Max__width } from "../styles/constants";
+
 import Navigation from "../Layout/Navigation";
+import Form from "../components/Form";
 
 const News = () => {
   return (
@@ -138,6 +141,7 @@ const News = () => {
               </div>
             </News__Section__Box>
           </News__Section__Container>
+          <Form />
         </Turaki__Max__width>
       </News__Container>
     </>
