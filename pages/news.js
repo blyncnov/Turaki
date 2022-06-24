@@ -22,7 +22,7 @@ const News = () => {
         <Navigation />
         <Turaki__Max__width>
           <About__Sector>
-            <h1>About</h1>
+            <h1>News and Events</h1>
             <br />
             <p>
               lorem ipsum dolor sit lorem lorem ipsum dolor sit loremlorem ipsum

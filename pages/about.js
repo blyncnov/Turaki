@@ -28,22 +28,21 @@ const AboutTuraki = () => {
         <Navigation />
         <>
           <About__Sector>
-            <div className="HeroSection__Image showcase">
-              <Image
-                src="/images/hands.png"
-                layout="fill"
-                objectFit="cover"
-                alt="Turaki"
-              />
-            </div>
-            <div className="About__btn">
-              <Turaki__Button>Join Community</Turaki__Button>
-            </div>
+            <Turaki__Max__width>
+              <About__Sector>
+                <h1>About</h1>
+                <br />
+                <p>
+                  lorem ipsum dolor sit lorem lorem ipsum dolor sit loremlorem
+                  ipsum dolor sit lorem lorem ipsum dolor sit lorem lorem ipsum
+                  dolor sit lorem lorem ipsum dolor sit lorem
+                </p>
+              </About__Sector>
+            </Turaki__Max__width>
           </About__Sector>
         </>
       </About__Container>
-      <br />
-      <br />
+
       <About__Turaki__Container>
         <About__Sector>
           <Turaki__Max__width>
