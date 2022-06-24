@@ -30,15 +30,21 @@ const Navigation = () => {
       <Navigation__Container>
         <Turaki__Max__width>
           <Navigation__Column>
-            <Navigation__Sector>
-              <Navigation__Logo>
-                <Link href="/">
-                  <a>
-                    <h1>Turaki</h1>
-                  </a>
-                </Link>
-              </Navigation__Logo>
-            </Navigation__Sector>
+            {/* <Navigation__Mobile onClick={isBarClickHandler}>
+              {isClicked ? (
+                <FaTimes
+                  style={{
+                    fontSize: "1.5em",
+                    color: "black",
+                    zIndex: "9999999",
+                  }}
+                />
+              ) : (
+                <RiBarChartHorizontalLine
+                  style={{ fontSize: "1.5em", color: "white" }}
+                />
+              )}
+            </Navigation__Mobile> */}
             <Navigation__Sector>
               <Navigation__Item click={isClicked}>
                 {Navigation__Data.map((item) => {
@@ -55,7 +61,13 @@ const Navigation = () => {
             </Navigation__Sector>
             <Navigation__Mobile onClick={isBarClickHandler}>
               {isClicked ? (
-                <FaTimes style={{ fontSize: "1.5em", color: "black" }} />
+                <FaTimes
+                  style={{
+                    fontSize: "1.5em",
+                    color: "black",
+                    zIndex: "9999999",
+                  }}
+                />
               ) : (
                 <RiBarChartHorizontalLine
                   style={{ fontSize: "1.5em", color: "white" }}

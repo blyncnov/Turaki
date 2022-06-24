@@ -8,7 +8,7 @@ export const Navigation__OverAll = styled.div`
 
 export const Navigation__Container = styled.div`
   width: 100%;
-  background-color: rgb(0, 62, 65, 0.4);
+  background-color: rgb(0, 62, 65, 0.3);
   position: fixed;
   top: 0;
   left: 0;
