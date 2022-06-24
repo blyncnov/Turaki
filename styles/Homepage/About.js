@@ -55,7 +55,6 @@ export const About__Turaki__Container = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
-  margin: 20px 0;
   padding: 20px 0;
 `;
 

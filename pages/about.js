@@ -25,7 +25,7 @@ const AboutTuraki = () => {
   return (
     <>
       <About__Container>
-        <Navigation />
+        <Navigation logo="About"/>
         <>
           <About__Sector>
             <Turaki__Max__width>
