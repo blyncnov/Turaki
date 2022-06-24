@@ -2,6 +2,7 @@ import React from "react";
 
 import { FaFacebookSquare, FaInstagramSquare, FaTwitter } from "react-icons/fa";
 import { AiFillYoutube } from "react-icons/ai";
+import { IoLocationSharp } from "react-icons/io5";
 
 import { Turaki__Footer__Container } from "../styles/Layout/Footer";
 import { Turaki__Max__width } from "../styles/constants";
@@ -23,7 +24,11 @@ const Footer = () => {
             </div>
           </div>
           <div className="Footer__Sector">
-            <h5>Mustapha Towers, 21b, Mugadishu Street, Zone IV, Abuja</h5>
+            <h5>
+              {" "}
+              <IoLocationSharp /> Mustapha Towers, 21b, Mugadishu Street, Zone
+              IV, Abuja
+            </h5>
           </div>
           <div className="Footer__Sector">
             <h5>Copyright @ 2022 DEETWOGD</h5>
