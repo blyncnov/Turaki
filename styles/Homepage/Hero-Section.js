@@ -21,13 +21,13 @@ export const HeroSection__Column = styled.div`
   width: 100%;
   position: relative;
   padding: 1em 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-basis: 50%;
   align-items: center;
 
-  // @media (max-width: 768px) {
-  //   grid-template-columns: 1fr;
-  // }
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
 `;
 
 export const HeroSection__Sector = styled.div`

@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
+import DisPlayImage from "../public/images/turaki1.png";
+
 import Link from "next/link";
 
 import {
@@ -34,7 +36,7 @@ const HeroSection = () => {
             </HeroSection__Sector>
             <HeroSection__Sector>
               <div className="HeroSection__Image">
-                <img src="/images/turaki1.png" alt="Turaki" />
+                <Image src={DisPlayImage} alt="Turaki" layout="responsive" />
               </div>
             </HeroSection__Sector>
           </HeroSection__Column>
