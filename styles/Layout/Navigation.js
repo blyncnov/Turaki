@@ -8,12 +8,14 @@ export const Navigation__OverAll = styled.div`
 
 export const Navigation__Container = styled.div`
   width: 100%;
-  background-color: rgb(0, 62, 65, 0.3);
+  background-color: ${({ bgShow }) =>
+    bgShow === "none" ? "none" : "rgb(0, 62, 65, 0.3)"};
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  backdrop-filter: blur(5px);
+  backdrop-filter:   backdrop-filter: ${({ blur }) =>
+    blur === "none" ? "none" : "blur(5px)"};
   z-index: 9999999999;
 `;
 

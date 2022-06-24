@@ -16,7 +16,7 @@ const HeroSection = () => {
   return (
     <>
       <HeroSection__Container>
-        <Navigation />
+        <Navigation bg="none" blur="none" />
         <Turaki__Max__width>
           <HeroSection__Column>
             <HeroSection__Sector>

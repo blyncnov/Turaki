@@ -19,7 +19,7 @@ import {
 
 import { Turaki__Max__width } from "../styles/constants";
 
-const Navigation = ({ logo }) => {
+const Navigation = ({ bg, blur }) => {
   const [isClicked, setIsClicked] = useState(false);
 
   const isBarClickHandler = () => {
@@ -28,7 +28,7 @@ const Navigation = ({ logo }) => {
 
   return (
     <Navigation__OverAll>
-      <Navigation__Container>
+      <Navigation__Container bgShow={bg} blurShow={blur}>
         <Turaki__Max__width>
           <Navigation__Column>
             <Navigation__Sector>
